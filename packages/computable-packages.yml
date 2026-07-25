@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/computablelabs
+notes: >-
+  Computable Labs published client libraries for developing against the
+  Computable Protocol (a decentralized data-market / Datatrust smart-contract
+  system). The JavaScript library is published to npm; the Python library ships
+  as source in the GitHub org and is not published to PyPI (the PyPI name
+  "computable" 404s; the PyPI "datatrust" package belongs to an unrelated
+  author). The org and its repositories are archived / inactive (last activity
+  2022-2023) and the company website (computable.io / computablelabs.com) no
+  longer resolves to a live property.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@computable/computablejs"
+    url: https://www.npmjs.com/package/@computable/computablejs
+    install: npm install @computable/computablejs
+    version: 0.1.0
+    repository: https://github.com/computablelabs/computable.js
+    official: true
+  - language: python
+    registry: github
+    name: computable
+    url: https://github.com/computablelabs/computable.py
+    install: pip install git+https://github.com/computablelabs/computable.py
+    version: 3.0.1
+    repository: https://github.com/computablelabs/computable.py
+    published_to_registry: false
+    official: true
